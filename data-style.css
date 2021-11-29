@@ -1,0 +1,560 @@
+* {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif, Arial, Helvetica; margin:0}
+        img {vertical-align: middle;}
+.pizza {
+    max-width: 100%;
+    height: 320px;
+    
+}
+
+
+.pizza .logo-hat {
+    position: absolute;
+    width: 95px;
+  height: 105px;
+  left: 200px;
+  top: 0;
+
+}
+
+.pizza .eatit {
+    position: absolute;
+  left: 229px;
+  top: 67px;
+}
+
+.pizza .left p {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: bold;
+  
+}
+
+.pizza .left p {
+    position: absolute;
+
+
+    left: 200px;
+    top: 150px;
+
+}
+
+.pizza .left h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: normal;
+ 
+}
+
+.pizza .left h1 {
+    position: absolute;
+
+
+    left: 200px;
+    top: 230px;
+}
+
+.box4 {
+    position: absolute;
+    width: 1420px;
+    height: 600px;
+    margin: 0 60px;
+    top: 359px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box5 {
+    position: absolute;
+    width: 1420px;
+    height: 535px;
+    margin: 0 60px;
+    top: 1032px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box6 {
+    position: absolute;
+    width: 1420px;
+    height: 233px;
+    margin: 0 60px;
+    top: 1636px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box7 {
+    position: absolute;
+    width: 1420px;
+    height:  267px;
+    margin: 0 60px;
+    top: 1940px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box4 h1 {
+  position: absolute;
+
+left: 60px;
+top: 11px;
+
+font-family: Roboto;
+font-weight: normal;
+font-size: 28px;
+color: #FF2828;
+}
+
+.box4 .input-restaurant {
+  position: absolute;
+  left: 60px;
+  top: 81px;
+  width: 630px;
+  height: 100px;
+}
+
+
+.box4 .input-restaurant p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box4 .input-restaurant .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px; 
+color: #232323;
+ width: 630px;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.box4 .input-phone-number {
+  position: absolute;
+  left: 60px;
+  top: 216px;
+  width: 630px;
+  height: 100px;
+}
+
+
+.box4 .input-phone-number p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box4 .input-phone-number .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px; 
+color: #232323;
+width: 630px;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.box4 .input-city {
+  position: absolute;
+  left: 730px;
+  top: 81px;
+  width: 630px;
+  height: 100px;
+}
+
+
+.box4 .input-city p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box4 .input-city .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px; 
+color: #232323;
+width: 630px;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.box4 .input-seating-capacity {
+  position: absolute;
+  left: 730px;
+  top: 216px;
+  width: 630px;
+  height: 100px;
+}
+
+
+.box4 .input-seating-capacity p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box4 .input-seating-capacity .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px; 
+color: #232323;
+width: 630px;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.manager {
+  position: absolute;
+  left: 60px;
+  top: 375px;
+}
+
+.manager p {
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+text-align: left;
+}
+
+.opening-status {
+  position: absolute;
+  left: 730px;
+  top: 375px;
+}
+
+.opening-status p {
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+text-align: left;
+}
+
+
+.box5 h1 {
+  position: absolute;
+
+left: 60px;
+top: 11px;
+
+font-family: Roboto;
+font-weight: normal;
+font-size: 28px;
+color: #FF2828;
+}
+
+.box5 .input-location {
+  position: absolute;
+  left: 60px;
+  top: 81px;
+  width: 1300px;
+  height: 100px;
+}
+
+
+.box5 .input-location p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box5 .input-location .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px;
+  width: 1300px;
+color: #232323;
+box-sizing: border-box;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.box5 .map-coordinates {
+  position: absolute;
+  left: 60px;
+  top: 216px;
+  width: 1300px;
+  height: 100px;
+}
+
+
+.box5 .map-coordinates p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box6 h1 {
+  position: absolute;
+
+left: 60px;
+top: 11px;
+
+font-family: Roboto;
+font-weight: normal;
+font-size: 28px;
+color: #FF2828;
+}
+
+.box6 .input-restaurant-email {
+  position: absolute;
+  left: 60px;
+  top: 81px;
+  width: 630px;
+  height: 100px;
+}
+
+
+.box6 .input-restaurant-email p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box6 .input-restaurant-email .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px;
+  width: 630px;
+  color: #232323;
+box-sizing: border-box;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.box6 .input-restaurant-website {
+  position: absolute;
+  left: 730px;
+  top: 81px;
+  width: 630px;
+  height: 100px;
+}
+
+
+.box6 .input-restaurant-website p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.box6 .input-restaurant-website .validate {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #999999;
+  top: 80px;
+  width: 630px;
+  color: #232323;
+box-sizing: border-box;
+padding: 8px 8px 8px 8px;
+font-size: 16px;
+border-radius: 10px;
+
+outline: none;
+}
+
+.box7 h1 {
+  position: absolute;
+
+left: 60px;
+top: 11px;
+
+font-family: Roboto;
+font-weight: normal;
+font-size: 28px;
+color: #FF2828;
+}
+
+.lisencelabel {
+  position: absolute;
+  left: 60px;
+top: 81px;
+width: 394px;
+}
+
+.lisencelabel p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+
+.lisence {
+  position: absolute;
+
+left: 0px;
+top: 80px;
+}
+
+.panlabel {
+  position: absolute;
+  left: 514px;
+top: 81px;
+width: 394px;
+}
+
+.panlabel p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+.pan {
+  position: absolute;
+
+left: 0px;
+top: 80px;
+}
+
+.fssailabel {
+  position: absolute;
+  left: 968px;
+top: 81px;
+width: 394px;
+}
+
+.fssailabel p {
+  position: absolute;
+
+left: 0px;
+top: 0px;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+color: #343434;
+}
+.fssai {
+  position: absolute;
+
+left: 0px;
+top: 80px;
+}
+
+.star {
+  color: red;
+  font-family: Roboto;
+font-weight: normal;
+font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-space {
+  position:absolute;
+  width: 280px;
+  height: 160px;
+  right: 60px;
+top: 2260px;
+}
+
+.btn {
+  position:absolute;
+  background: rgba(255, 94, 94, 1);
+  color: white;
+  font-size: 28px;
+  padding: 9px 60px;
+right: 0px;
+top: 0px;
+
+border-radius: 30px;
+border: none;
+cursor: pointer;
+}
+
+.btn:hover {
+  background: #FF2828;
+}
+
+

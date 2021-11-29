@@ -1,0 +1,24 @@
+* {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif, Arial, Helvetica; margin:0}
+       
+
+.wrong-container {
+    width:100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.wrong-image {
+    margin-top:2%;
+}
+
+.wrong-container h1 {
+    color: #ff5353;
+    margin-top: 10%;
+}
+
+.password-specification p {
+    color:#ff5353
+}
+

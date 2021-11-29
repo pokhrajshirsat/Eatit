@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1b203d;
+    overflow: hidden;
+    font-family: system-ui;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.hat {
+    margin: 0px;
+    margin-left: 50px;
+
+}
+
+.eatit {
+    margin-top: -42px;
+    margin-left: 79px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #272c4a;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.sidenav a{
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #1b203d;
+    color: #f1f1f1;
+}
+
+#main {
+    margin-left: 300px;
+    transition: margin-left 0.5s;
+    padding: 16px;
+
+}
+
+.head {
+    padding: 20px;
+}
+
+.col-div-6 {
+    width: 50%;
+    float: left;
+}
+
+.accounts {
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.nav {
+    display: none;
+}
+
+.col-div-3 {
+    width: 25%;
+    float: left;
+}
+
+.box {
+    width: 85%;
+    height: 160px;
+    background-color: #272c4a;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #1b203d;
+}
+
+.box p {
+    font-size: 36px;
+    color: white;
+    font-weight: normal;
+    line-height: 30px;
+   text-align: center;
+}
+
+.box-icon {
+    font-size: 40px!important;
+    color: #818181;
+    padding-left: 108px;
+
+}
+
+.box1 {
+    box-sizing: border-box;
+    border: 1px solid #818181;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 98%;
+    height: 400px;
+}
+
+.box1 p{
+    color: #f1f1f1;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.box1 .btn {
+    background-color: #818181;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    margin-left: 1080px;
+   
+}
+
+.box2 a{
+    text-decoration: none;
+}
+
+.box3 a{
+    text-decoration: none;
+}
+
+.box4 a{
+    text-decoration: none;
+}
+
+
